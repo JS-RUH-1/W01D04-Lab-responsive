@@ -1,0 +1,73 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .container{
+    
+     margin: -10px;
+
+    }
+
+
+  .background-header{
+
+
+    background-image: url(/images/HeaderBackground1920x1280.jpg);
+    background-size: cover;
+
+    margin-top: -30px;
+    height: 600px;
+
+  }
+
+
+  #logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color:tomato;
+
+
+  }
+
+
+  ul {
+
+    list-style-type: none;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+
+  }
+  li a{color:white;
+    line-height: 29px;
+        text-decoration: none;
+         }
+
+
+
+  .introduction{
+    
+   line-height: 29px;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    color: white;
+  }
+
+
+
+  }
+
+  .icon{
+    margin-left: 40%;
+  }
+  .services-name{
+    margin-left: 30%;
+
+  }
+  .services-content{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  
+
