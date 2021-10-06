@@ -1,0 +1,140 @@
+*,
+html,
+head,
+body {
+  margin: 0;
+  padding: 0;
+}
+#logo {
+  color: #f33e57;
+}
+.background-header {
+  background-image: url("../images/HeaderBackground1920x1280.jpg");
+  height: 100vh;
+  width: 100%;
+}
+.content-header {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+}
+.introduction {
+  font-family: "Open Sans", sans-serif;
+}
+.content-header h1 {
+  color: tomato;
+  position: relative;
+  align-items: flex-start;
+}
+.content-header ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  position: relative;
+
+  justify-content: space-between;
+}
+.content-header li {
+  padding: 0 10px;
+}
+.content-header a {
+  color: white;
+  text-decoration: none;
+}
+.introduction {
+  margin-top: 10%;
+  padding: 0 10%;
+  color: white;
+  text-align: left;
+  line-height: 180%;
+}
+.introduction h5 {
+  margin-top: 2%;
+}
+
+main {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-gap: 20px;
+}
+.services-name {
+  padding: 2% 0;
+  font-size: small;
+}
+.part-services {
+  text-align: center;
+}
+.part-services p {
+  text-align: justify;
+}
+
+.title-Services {
+  margin-top: 2%;
+  color: rgb(49, 49, 49);
+  display: flex;
+  justify-content: center;
+}
+
+/*
+
+HERE FOR MOBILE SCREEN 
+
+*/
+@media only screen and (max-width: 600px) {
+  .background-header {
+    background-image: url("../images/HeaderBackground1920x1280.jpg");
+    height: 100vh;
+    width: 100%;
+  }
+  #logo {
+    color: #f33e57;
+    padding: 5px;
+  }
+  .content-header {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .content-header ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    position: relative;
+    align-items: center;
+    margin: auto;
+  }
+  .content-header ul li {
+    padding: 1% 0%;
+  }
+  .content-header a {
+    color: white;
+    text-decoration: none;
+  }
+  .introduction {
+    font-family: "Open Sans", sans-serif;
+    padding: 0 10%;
+    color: white;
+
+    line-height: 180%;
+  }
+  .introduction h5 {
+    margin-top: 2%;
+  }
+  main {
+    display: block;
+    padding: 5%;
+    text-align: center;
+  }
+  main h1 {
+    /* font-size: 300%; */
+  }
+  .icon {
+    margin: 7% 0%;
+  }
+  .services-name {
+    margin: 3% 0%;
+  }
+}
