@@ -9,7 +9,8 @@ body {
   color: #f33e57;
 }
 .background-header {
-  background-image: url("../images/HeaderBackground1920x1280.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/HeaderBackground1920x1280.jpg");
   height: 100vh;
   width: 100%;
 }
@@ -84,7 +85,8 @@ HERE FOR MOBILE SCREEN
 */
 @media only screen and (max-width: 600px) {
   .background-header {
-    background-image: url("../images/HeaderBackground1920x1280.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../images/HeaderBackground1920x1280.jpg");
     height: 100vh;
     width: 100%;
   }
