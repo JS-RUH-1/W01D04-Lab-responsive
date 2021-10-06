@@ -1,0 +1,39 @@
+
+ @media(max-width: 600px) {
+
+main{
+  text-align: center;
+  padding: 40px;
+}
+.background-header {
+    background-image: url('../images/HeaderBackground1920x1280.jpg');
+    height: 100vh;
+}
+  .introduction{
+      color: white;
+      padding: 0 20%;
+  }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: left;
+}
+#logo{
+    color: salmon;
+    margin-left: 10px;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    text-align: center;
+}
