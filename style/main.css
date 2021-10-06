@@ -1,0 +1,130 @@
+.container {
+  width: auto;
+}
+
+header {
+  padding: 2%;
+  background-image: url("/images/HeaderBackground1920x1280.jpg");
+  height: 100vh;
+  width: 100vw;
+}
+
+.content-header {
+  width: auto;
+}
+
+#logo {
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 > .main {
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+a {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.introduction {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 8%;
+  padding-left: 5%;
+  padding-right: 8%;
+  line-height: 4vh;
+  font-size: 18px;
+}
+h1 {
+  line-height: initial;
+  font-size: 30px;
+}
+main {
+  color: grey;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.part-services {
+  width: auto;
+}
+.icon {
+  width: auto;
+}
+.services-name {
+  color: black;
+  font-size: 20px;
+}
+.services-content {
+  color: black;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    color: pink;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #logo {
+    color: purple;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #logo {
+    color: yellow;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #logo {
+    color: green;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #logo {
+    color: blue;
+  }
+  .introduction {
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 8%;
+    line-height: 6vh;
+    font-size: 30px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    line-height: 5vh;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  h1 {
+    line-height: initial;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  main{
+      padding-top: 5vh;
+    color: grey;
+    font-size: 35px;
+    text-align: center;
+    flex-direction: row;
+}
+.part-services {
+    padding-right: 1vh;
+    padding-left: 1vh;
+  }
+}
