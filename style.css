@@ -42,4 +42,71 @@
   main {
     text-align: center;
   }
+  .h1-services {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #logo {
+    color: rgb(199, 43, 43);
+    padding-left: 8%;
+    font-weight: bold;
+  }
+
+  header {
+    background-image: url("images/HeaderBackground1920x1280.jpg");
+    height: 670px;
+    width: 1410px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: gray;
+    color: rgb(17, 77, 73);
+  }
+
+  .introduction {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 25px;
+    line-height: 1.8;
+  }
+
+  main {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: minmax(100px, auto); */
+    gap: 10px;
+    /* grid-template-columns: 20% 20% 20% 20%; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 100% 100% 100% 100%; */
+    text-align: center;
+  }
+
+  .part-services {
+    grid-row-start: 2;
+    grid-column-end: 7;
+  }
+  .h1-services {
+    text-align: center;
+  }
 }
