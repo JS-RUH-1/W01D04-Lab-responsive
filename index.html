@@ -4,6 +4,57 @@
 <title>Our App</title>
 <link rel="stylesheet" href="style/main.css">
 <meta name="viewport" content="width=width-device, initial-scale=1.0">
+
+<style>
+  @media(max-width: 600px){
+    body{
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+    h1{
+      font-size: 30px;
+    }
+    .fh1{
+      font-size: 35px;
+      color: rgb(82, 82, 82);
+    }
+    .background-header{
+      background-image: url("images/HeaderBackground1920x1280.jpg");
+      height: 100vh;
+      text-align: left;
+      padding: 25px;
+    }
+    #logo{
+      color: rgb(240, 71, 71);
+    }
+
+   .introduction{
+      color: white;
+      margin: 0 20px;
+      height: 50vh ;   
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     }
+    li{
+      list-style: none;
+      text-align: center;
+      margin-top: 5px;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    main{
+      padding: 0 25px;
+    }
+    p{
+      text-align: left;
+    }
+
+  }
+</style>
   </head>
 <body>
 
@@ -15,26 +66,26 @@
   <header>
 
     <div class="background-header">
-
-    </div>
-    <div class="content-header">
       <h1 id="logo">Our App</h1>
-      <ul>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
 
-      <div class="introduction">
-        <h1>Hello, Welcome to Resposive desgin</h1>
-        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+      <div class="content-header">
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
-  </header>
+  
+        <div class="introduction">
+          <h1>Hello, Welcome to Resposive desgin</h1>
+          <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+        </div>
+    </header>
+    </div>
 
   <!-- main -->
   <main>
-    <h1>Services</h1>
+    <h1 class="fh1">Services</h1>
     <!-- box of services -->
 
 
