@@ -3,10 +3,61 @@
 <head>
 <title>Our App</title>
 <link rel="stylesheet" href="style/main.css">
-<meta name="viewport" content="width=width-device, initial-scale=1.0">
-  </head>
+<meta name="viewport" content="width=width-device, initial-scale= 1.0">
+ 
+ <link rel="stylesheet" href="CSS.css">
+ <link rel="stylesheet" href="grid.css">
+
+ 
+  
+
+ <style>
+    @media screen and (min-width: 1024px) {  
+        body{background-color: rgb(14, 14, 73);}  
+    
+        .introduction{width: 75%;
+           
+        
+        }
+    }
+    
+    @media screen and (min-width: 768px)and (max-width: 1023x) {  
+        body{background-color: rgb(223, 46, 143);} 
+        .introduction{width: 75%;
+          
+        
+        }
+    }
+    
+    @media screen and (max-width: 766px){
+        body{background-color: rgb(62, 62, 78);} 
+         
+        .content-header{
+            float: left;
+            width: 60%; 
+            display: flex; 
+        }
+
+        .introduction{width: 75%;
+          
+        
+        }
+        
+    }
+    
+    
+    img{ max-width: 100%; height: auto;}
+     </style>
+<!-- <link rel="stylesheet" href="style.css"> -->
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
 <body>
 
+    
+   
   <!-- container -->
   <div class="container">
 
@@ -16,9 +67,11 @@
 
     <div class="background-header">
 
+      <img src="images/HeaderBackground1920x1280.jpg" alt="">
+      
     </div>
     <div class="content-header">
-      <h1 id="logo">Our App</h1>
+       <h1 id="logo">Our App</h1>
       <ul>
         <li><a href="#">Services</a></li>
         <li><a href="#">Work</a></li>
