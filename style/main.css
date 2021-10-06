@@ -1,0 +1,130 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{ 
+    background-image: url('../images/HeaderBackground1920x1280.jpg');
+    background-repeat: repeat-x;
+    color: white;
+    text-align:center;
+}
+
+header>.content-header{
+    color: red;
+    text-align:left;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    flex-wrap: wrap;
+
+}
+
+main>h1{
+    flex-direction: column;
+    flex: 0 1 100%;
+}
+main>div{
+    flex: 1 0 10%;
+
+}
+
+header>.introduction{
+    margin: 10px;
+    font-size: 32px;
+    padding-bottom: 21%;
+}
+
+header>.content-header>ul{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+header>.content-header>ul>li{
+    margin: 10px;
+}
+header>.content-header>ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+@media only screen and (max-width: 600px) {
+    main {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        color: white;
+        text-align:center;
+        padding-bottom: 100%;
+    }
+    header>.content-header{
+        display: block;
+    }
+    header>.introduction{
+        margin: 10px;
+        font-size: 18px;
+    }
+    header>.content-header>ul{
+        display:list-item;
+        text-align: center;
+        list-style: none;
+        color: white;
+    }
+    header>.content-header>ul>li{
+        margin: 10px;
+    }
+    header>.content-header>ul>li>a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 810px) and (min-width: 601px) {
+
+    main {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        color: white;
+        text-align:center;
+        padding-bottom: 50%;
+    }
+    header>.introduction{
+        margin: 10px;
+        font-size: 26px;
+        padding-top: 50%;
+    }
+    header>.content-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    header>.content-header>ul{
+        display: flex;
+        list-style: none;
+        color: white;
+    }
+    header>.content-header>ul>li{
+        margin: 10px;
+    }
+    header>.content-header>ul>li>a{
+        color: white;
+        text-decoration: none;
+    }
+
+}
