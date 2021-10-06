@@ -31,10 +31,15 @@ header {
 
 }
 
+h5 {
+    font-size: 3vh;
+}
+
 main {
     display: grid;
     gap: 2px;
     grid-template-columns: repeat(4, 1fr);
+    margin: 25px;
 }
 
 main h1 {
