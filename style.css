@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+    header {
+      background-image: url("images/HeaderBackground1920x1280.jpg");
+      background-size: cover;
+    
+    }
+    #logo{
+        color: rgb(207, 63, 63);
+        font-size: 24px;
+        margin-left: 5px;
+    }
+    ul,li{
+        list-style-type: none;
+        text-align: center;
+        
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+    }
+    h1{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+        
+    }
+    h5{
+        color: white;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .h1{
+        color: black;
+        text-align: center;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+    }
+    .services-content{
+        display: flex;
+        text-align: center;
+    }
+  }
