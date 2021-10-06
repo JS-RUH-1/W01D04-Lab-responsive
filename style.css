@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+  #logo {
+    color: rgb(199, 43, 43);
+    padding-left: 8%;
+    font-weight: bold;
+  }
+  header {
+    background-image: url("images/HeaderBackground1920x1280.jpg");
+    height: 780px;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5%;
+  }
+
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: gray;
+    color: rgb(17, 77, 73);
+  }
+
+  .introduction {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    padding-left: 8%;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  main {
+    text-align: center;
+  }
+}
