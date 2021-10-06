@@ -11,6 +11,10 @@ Notes:
 - Look up `@media for tablet` (css).
 
 
+### The website look like this on website
+<img src="./images/Our App.png" data-canonical-src="./images/beforeMobile01.png" width="600" height="300" /> 
+
+
 ### The website look like this before add @mdeia when they open it on mobile 
 <img src="./images/beforeMobile01.png" data-canonical-src="./images/beforeMobile01.png" width="300" height="500" />
 <img src="./images/beforeMobile02.png" data-canonical-src="./images/beforeMobile02.png" width="300" height="500" />
