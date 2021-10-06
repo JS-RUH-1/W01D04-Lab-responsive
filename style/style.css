@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header {
+    height: 70vh;
+    background-image: url("../images/HeaderBackground1920x1280.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: #fff;
+}
+.content-header, .introduction, main {
+    padding: 20px;
+}
+.content-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo {
+    color: rgb(237, 81, 81);
+}
+.content-header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+.content-header ul li {
+    margin: 0px 10px;
+}
+.introduction {
+    width: 70%;
+    margin: 10% auto auto;
+}
+.introduction h1 {
+    font-size: 2.3rem;
+    margin: 20px 0px;
+}
+.introduction h5 {
+    width: 100%;
+    font-size: 14px;
+}
+
+/*  */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 8%;
+}
+.part-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-name h1 {
+    font-size: 25px;
+    margin: 15px 0px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin: 30px auto;
+}
+/*  */
+
+
+
+
+
+/* ****** Media Query ******** */
+@media screen and (max-width: 600px) {
+    
+    header {
+        height: 60vh;
+    }
+    .content-header  {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-header ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .content-header ul li {
+        margin: 10px 0px;
+    }
+    .introduction {
+        width: 70%;
+        margin: -6% auto;
+    }
+    .introduction h1 {
+        font-size: 20px;
+    }
+    .introduction h5 {
+        font-size: 12px;
+    }
+
+    main {
+        margin: 30px;
+    }
+    main .div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+    }
+    main h1 {
+        margin: 20px;
+        font-size: 40px;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin: 30px auto;
+        max-width: 80%;
+    }
+    .part-services h1 {
+        font-size: 25px;
+    }
+    .services-content {
+        width: 100%;
+        text-align: left;
+    }
+    
+
+}
