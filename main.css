@@ -1,0 +1,169 @@
+
+    html,body{
+        padding: 0; 
+        
+         }
+            .background-header{
+                position: relative; 
+                background-image: url("./images/HeaderBackground1920x1280.jpg");
+                height: 100vh;
+                width: 100%;
+                
+            }
+            .content-header {
+        
+              
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                color: rgb(173, 53, 53);
+                font-size: 20px;
+                  
+            }
+        
+        #Links :link{
+            color: white;
+            display: flex;
+            align-items: center;
+            width: min-content;
+            justify-content: space-between;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+        
+        #Links{
+            list-style: none;
+        }
+
+       
+            .introduction {
+              
+                margin-left: auto;
+            margin-right: auto;
+                color: white;
+                font-size: 23px;
+                padding: 20px;
+                
+            }
+           #services {
+               color: gray;
+               font-size: 40px;
+              
+              width: min-content;
+            margin-left: auto;
+            margin-right: auto;
+           } 
+        .services-main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+            margin: 20px;
+        }
+        
+        #logo {
+        
+            margin-left: 50px;  
+        }
+
+        .part-services{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+        }
+
+        .services-content{
+            padding: 20px;
+        }
+
+
+
+@media screen and (max-width: 767px) {
+ html,body{
+padding: 0; 
+
+ }
+    .background-header{
+        position: relative; 
+        background-image: url("./images/HeaderBackground1920x1280.jpg");
+        background-size: cover;
+        
+    }
+    .content-header {
+
+      
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgb(173, 53, 53);
+        font-size: 20px;
+          
+    }
+
+#Links :link{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: min-content;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: auto;
+        margin-right: auto;
+}
+#Links {
+    
+    list-style: none;  
+   
+}
+    .introduction {
+      
+        margin-left: auto;
+    margin-right: auto;
+        color: white;
+        font-size: 15px;
+        padding: 20px;
+        
+    }
+   #services {
+       color: gray;
+       font-size: 40px;
+      
+      width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+   }
+.part-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    
+    margin: 10px;
+}
+#logo {
+
+    margin-left: 50px;  
+}
+.services-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify; 
+}
+}
+
+ 
+
+
